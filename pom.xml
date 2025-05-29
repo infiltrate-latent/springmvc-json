@@ -17,7 +17,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>5.2.10.RELEASE</version>
+      <version>4.1.2.RELEASE</version>
     </dependency>
     <!--springmvc底层还是servlet，所以必须添加servlet依赖-->
     <dependency>
@@ -25,6 +25,11 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>4.0.1</version>
       <scope>provided</scope><!--插件运行的时候没有范围插件启动会失败-->
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
     </dependency>
     <!--处理json-->
     <dependency>
