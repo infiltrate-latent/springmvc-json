@@ -18,6 +18,12 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
       <version>4.1.2.RELEASE</version>
+  <!--    <exclusions>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>-->
     </dependency>
     <!--springmvc底层还是servlet，所以必须添加servlet依赖-->
     <dependency>
