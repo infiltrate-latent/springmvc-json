@@ -17,13 +17,13 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>5.1.7.RELEASE</version>
-  <!--    <exclusions>
-        <exclusion>
-          <groupId>commons-logging</groupId>
-          <artifactId>commons-logging</artifactId>
-        </exclusion>
-      </exclusions>-->
+      <version>4.1.1.RELEASE</version>
+      <exclusions>
+      <exclusion>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+      </exclusion>
+      </exclusions>
     </dependency>
     <!--springmvc底层还是servlet，所以必须添加servlet依赖-->
     <dependency>
@@ -32,16 +32,16 @@
       <version>4.0.1</version>
       <scope>provided</scope><!--插件运行的时候没有范围插件启动会失败-->
     </dependency>
-    <dependency>
+  <!--  <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
-    </dependency>
-    <dependency>
+    </dependency>-->
+  <!--  <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
-    </dependency>
+    </dependency>-->
 <!--    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jcl-over-slf4j</artifactId>
